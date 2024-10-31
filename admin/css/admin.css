@@ -1,0 +1,6 @@
+#wiki-embed-tabs #tabs-2 .wp-picker-container input[type=text].wp-color-picker{width: 65px;}
+.wp-color-result{margin-bottom: 0;}
+
+#wiki-embed-tabs div.container{ border:2px solid #ccc; width:300px; height: 100px; overflow-y: scroll; }
+#wiki-embed-tabs #ppegallery-cta-button-text,
+#wiki-embed-tabs #ppegallery-cta-button-content{width: 300px}

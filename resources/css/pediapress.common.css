@@ -1,0 +1,1438 @@
+#doc {
+    position: relative;
+    min-height: 100%;
+}
+
+#mainContent {
+    width: 100%;
+    padding-left: 0;
+    padding-top: 10px;
+    margin: 0 auto;
+    position: relative;
+}
+
+div.rdp_pp_book_gallery {
+    position: static;
+    padding-left: 0;
+}
+
+#mainContent .red {
+    background-color: red;
+}
+
+#mainContent .invisible {
+    display: none;
+}
+
+#mainContent .clear {
+    clear: both;
+}
+
+em {
+    font-style: italic;
+}
+
+strong {
+    font-weight: bold;
+}
+
+#mainContent dt {
+    margin-top: 6px;
+}
+
+#mainContent ul,#mainContent ol {
+    margin: 10px 0;
+}
+
+#mainContent ul li {
+    list-style-type: circle;
+    margin-left: 1.2em;
+}
+
+#mainContent ol li {
+    list-style-type: decimal;
+    margin-left: 30px;
+}
+
+
+#mainContent #smallPrint {
+    position: absolute;
+    right: 0;
+    bottom: 7px;
+    font-size: 80%;
+    color: rgb(127,130,131);
+}
+
+#mainContent #smallPrint a {
+    color: rgb(127,130,131);
+}
+
+
+#mainContent .bigger p,#mainContent .bigger li {
+    font-size: 110%;
+}
+
+#mainContent .bigger h2 {
+    font-size: 130%;
+    font-weight: normal;
+    margin-top: 15px;
+}
+
+#mainContent .small {
+    font-size: 90%;
+}
+
+
+
+#mainContent h1,#mainContent h2,#mainContent h3 {
+    clear: both;
+    margin: 5px 0;
+}
+
+#mainContent h1.underline,#mainContent h2.underline,#mainContent h3.underline {
+    border-bottom: 1px solid rgb(200,200,200);
+}
+
+#mainContent .center {
+    text-align: center;
+}
+
+#mainContent .errorlist {
+    color: rgb(200,0,0);
+}
+
+#mainContent .boundingBox {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+#mainContent .button {
+    border: 0;
+    background: url(https://pediapress.com/resources/images/button_grey.gif) no-repeat;
+    color: rgb(255,255,255);
+    width: 94px;
+    height: 28px;
+    z-index: 1;
+}
+
+#mainContent label,dt,#mainContent .greytext,#mainContent .label {
+    color: rgb(102,102,102);
+}
+
+#mainContent label.required {
+    font-weight: bold;
+}
+
+#mainContent #thumbnails {
+    padding-top: 10px;
+    text-align: center;
+}
+
+#mainContent #thumbnails img {
+    border: 1px solid rgb(200,200,200);
+    padding: 1px;
+}
+
+#mainContent #pp_index .usecases img {
+    border: 1px solid #c8c8c8;
+    margin: 0 0 20px 10px;
+    float: right;
+    width: 118px;
+    height: 177px;
+}
+
+#mainContent #pp_index div.usecase {
+    clear: both;
+    margin-top: 10px;
+}
+
+#mainContent #pp_index .usecases h2 {
+    margin-top: 0;
+}
+
+#mainContent .s0l,#mainContent .s0,#mainContent .s1l,#mainContent .s1,#mainContent .s5l,#mainContent s5 {
+    float: left;
+    position: relative;
+    zoom: 1;
+}
+
+#mainContent .s0l {
+    position: relative;
+    margin-left: 8px;
+}
+
+#mainContent.no-cover .s0l {
+    margin-left: 0;
+}
+
+#mainContent.no-cover #rdp-ppe-cta-button-box{margin-bottom: 24px;}
+
+#mainContent .s0l h1+div{position: absolute; bottom: 0; right: 0; text-align: right; width: 314px;}
+
+#mainContent .s0 {
+    margin-left: 10px;
+}
+
+#mainContent .s1l {
+    margin-left: 54px;
+}
+
+#mainContent .s1 {
+    margin-left: 0;
+}
+
+#mainContent .s2l {
+    margin-left: 108px;
+}
+
+#mainContent .s2 {
+    margin-left: 118px;
+}
+
+#mainContent .s5l {
+    margin-left: 270px;
+}
+
+#mainContent .s5 {
+    margin-left: 280px;
+}
+
+#mainContent .w1 {
+    width: 44px;
+}
+
+#mainContent .w2 {
+    width: 98px;
+}
+
+#mainContent .w3 {
+    width: 152px;
+}
+
+#mainContent .w4 {
+    width: auto;
+}
+
+#mainContent #metadata.w4 {
+    width: 326px;
+}
+
+#mainContent .w5 {
+    width: 260px;
+}
+
+#mainContent .w6 {
+    width: 314px;
+}
+
+#mainContent .w7 {
+    width: 368px;
+}
+
+#mainContent .w8 {
+    width: 422px;
+}
+
+#mainContent .w9 {
+    width: 476px;
+}
+
+#mainContent .wa {
+    width: 530px;
+}
+
+#mainContent .wb {
+    width: 584px;
+}
+
+#mainContent .wc {
+    width: 638px;
+}
+
+#mainContent .wd {
+    width: 692px;
+}
+
+#mainContent .we {
+    width: 100%;
+}
+
+#mainContent .greyBottom,#mainContent .arrowBoxBottom,#mainContent .whiteBottom {
+    width: auto;
+    padding: 0;
+    height: 8px;
+    margin-bottom: 10px;
+}
+
+#mainContent .invisibleTop,#mainContent .greyTop,#mainContent .whiteTop {
+    padding: 8px 16px;
+    margin-top: 10px;
+}
+
+#mainContent .noBox {
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+#mainContent .w4 .whiteTop {
+    background: url(https://pediapress.com/resources/images/box_white_206px.png) no-repeat;
+}
+
+#mainContent .w4 .whiteBottom {
+    background: url(https://pediapress.com/resources/images/box_white_206px.png) no-repeat left bottom;
+}
+
+#mainContent .w4 .greyTop {
+    background: url(https://pediapress.com/resources/images/box_grey_206px.png) no-repeat;
+}
+
+#mainContent .w4 .greyBottom {
+    background: url(https://pediapress.com/resources/images/box_grey_206px.png) no-repeat left bottom;
+}
+
+#mainContent .w6 .whiteTop {
+    background: url(https://pediapress.com/resources/images/box_white_314px.png) no-repeat;
+}
+
+#mainContent .w6 .whiteBottom {
+    background: url(https://pediapress.com/resources/images/box_white_314px.png) no-repeat left bottom;
+}
+
+#mainContent .w7 .whiteTop {
+    background: url(https://pediapress.com/resources/images/box_white_368px.png) no-repeat;
+}
+
+#mainContent .w7 .whiteBottom {
+    background: url(https://pediapress.com/resources/images/box_white_368px.png) no-repeat left bottom;
+}
+
+#mainContent .w7 .arrowBoxTop {
+    background: url(https://pediapress.com/resources/images/arrowbox_368px.png) no-repeat;
+}
+
+#mainContent .w7 .arrowBoxBottom {
+    background: url(https://pediapress.com/resources/images/arrowbox_368px.png) no-repeat left bottom;
+}
+
+#mainContent .w9 .whiteTop {
+    background: url(https://pediapress.com/resources/images/box_white_476px.png) no-repeat;
+}
+
+#mainContent .w9 .whiteBottom {
+    background: url(https://pediapress.com/resources/images/box_white_476px.png) no-repeat left bottom;
+}
+
+#mainContent .w9 .greyTop {
+    background: url(https://pediapress.com/resources/images/box_grey_476px.png) no-repeat;
+}
+
+#mainContent .w9 .greyBottom {
+    background: url(https://pediapress.com/resources/images/box_grey_476px.png) no-repeat left bottom;
+}
+
+#mainContent .we .whiteTop {
+    background: url(https://pediapress.com/resources/images/box_white_746px.png) no-repeat;
+}
+
+#mainContent .we .whiteBottom {
+    background: url(https://pediapress.com/resources/images/box_white_746px.png) no-repeat left bottom;
+}
+
+#mainContent .we .greyTop {
+    background: url(https://pediapress.com/resources/images/box_grey_746px.png) no-repeat;
+}
+
+#mainContent .we .greyBottom {
+    background: url(https://pediapress.com/resources/images/box_grey_746px.png) no-repeat left bottom;
+}
+
+#mainContent .we .arrowBoxTop {
+    background: url(https://pediapress.com/resources/images/arrowbox_746px.png) no-repeat;
+}
+
+#mainContent .we .arrowBoxBottom {
+    background: url(https://pediapress.com/resources/images/arrowbox_746px.png) no-repeat left bottom;
+}
+
+#mainContent .arrowBoxTop,#mainContent .invisibleArrowBoxTop {
+    padding: 12px 32px 7px 56px;
+}
+
+#mainContent .simpleTable {
+    width: 99%;
+}
+
+#mainContent .simpleTable th {
+    text-align: center;
+}
+
+#mainContent .simpleTable td {
+    vertical-align: top;
+}
+
+#mainContent .simpleTable th,#mainContent .simpleTable td {
+    padding: 4px 8px;
+    border: 1px solid rgb(193,193,193);
+}
+
+#mainContent .simpleTable .leftTop {
+    background: rgb(230,230,230) url(https://pediapress.com/resources/images/cart_bg.gif) no-repeat left top;
+    border-left: 0;
+    border-top: 0;
+}
+
+#mainContent .simpleTable .top {
+    background: rgb(230,230,230) url(https://pediapress.com/resources/images/cart_bg.gif) no-repeat -60px top;
+    border-top: 0;
+}
+
+#mainContent .simpleTable .rightTop {
+    background: rgb(230,230,230) url(https://pediapress.com/resources/images/cart_bg.gif) no-repeat right top;
+    border-top: 0;
+    border-right: 0;
+}
+
+#mainContent .simpleTable .left {
+    background: rgb(255,255,255) url(https://pediapress.com/resources/images/cart_bg.gif) no-repeat left center;
+    border-left: 0;
+}
+
+#mainContent .simpleTable .right {
+    background: rgb(255,255,255) url(https://pediapress.com/resources/images/cart_bg.gif) no-repeat right center;
+    border-right: 0;
+    text-align: right;
+}
+
+#mainContent .simpleTable .leftBottom {
+    background: rgb(230,230,230) url(https://pediapress.com/resources/images/cart_bg.gif) no-repeat left bottom;
+    border-bottom: 0;
+    border-left: 0;
+}
+
+#mainContent .simpleTable .bottom {
+    background: rgb(230,230,230) url(https://pediapress.com/resources/images/cart_bg.gif) no-repeat center bottom;
+    border-bottom: 0;
+}
+
+#mainContent .simpleTable .rightBottom {
+    background: rgb(230,230,230) url(https://pediapress.com/resources/images/cart_bg.gif) no-repeat right bottom;
+    border-bottom: 0;
+    border-right: 0;
+    text-align: right;
+}
+
+#mainContent .ppe-add-to-cart,
+#mainContent .rdp-pp-gallery-add-to-cart-container a{
+	-moz-box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #7ba9f2), color-stop(1, #04458f) );
+	background:-moz-linear-gradient( center top, #7ba9f2 5%, #04458f 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#7ba9f2', endColorstr='#04458f');
+	background-color:#7ba9f2;
+	-webkit-border-top-left-radius:6px;
+	-moz-border-radius-topleft:6px;
+	border-top-left-radius:6px;
+	-webkit-border-top-right-radius:6px;
+	-moz-border-radius-topright:6px;
+	border-top-right-radius:6px;
+	-webkit-border-bottom-right-radius:6px;
+	-moz-border-radius-bottomright:6px;
+	border-bottom-right-radius:6px;
+	-webkit-border-bottom-left-radius:6px;
+	-moz-border-radius-bottomleft:6px;
+	border-bottom-left-radius:6px;
+	text-indent:0;
+	border:1px solid #337fed;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:normal;
+	font-style:normal;
+	height:20px;
+	line-height:20px;
+        padding: 0 15px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #1570cd;
+}
+#mainContent .ppe-add-to-cart:hover,
+#mainContent .rdp-pp-gallery-add-to-cart-container a:hover {
+    color: #f0f0f0;
+}
+#mainContent .ppe-add-to-cart:active,
+#mainContent .rdp-pp-gallery-add-to-cart-container a:active {
+	position:relative;
+	top:1px;
+}
+
+body#errorpage {
+    font-family: Verdana,sans-serif;
+    font-size: 70%;
+    line-height: 1.2em;
+    background-color: rgb(255,255,255);
+    color: rgb(40,30,10);
+    text-align: center;
+    margin-top: 3em;
+}
+
+#errorpage h1 {
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 1.6em;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+#pp_index .noBox {
+    margin-bottom: 30px;
+    padding-right: 16px;
+}
+
+#pp_index #wmfLogo {
+    float: right;
+    margin: 5px;
+}
+
+#pp_index #testimonial .text {
+    font-style: italic;
+    font-size: 1.1em;
+}
+
+#pp_index #testimonial .source {
+    white-space: nowrap;
+    font-style: normal;
+}
+
+#pp_index #sampleBook {
+    margin-top: 20px;
+    position: relative;
+    padding-top: 16px;
+}
+
+#pp_index #sampleBookImage {
+    position: absolute;
+    left: -10px;
+    top: -10px;
+    text-align: center;
+}
+
+#pp_index #sampleBookText {
+    margin-left: 110px;
+}
+
+#pp_index #paymentLogos {
+    text-align: center;
+    padding-top: 10px;
+}
+
+#pp_index p {
+    margin-bottom: 10px;
+}
+
+#pp_index #socialize img {
+    vertical-align: middle;
+    margin: 0 8px 4px 0;
+}
+
+#pp_contact input,#pp_contact textarea {
+    width: 100%;
+}
+
+#pp_contact #id_send_copy {
+    width: auto;
+}
+
+#pp_contact p {
+    margin-top: 8px;
+}
+
+#pp_contact #sendButton {
+    float: right;
+    margin-top: 10px;
+    width: 94px;
+}
+
+#pp_imprint p {
+    margin-top: 1em;
+}
+
+#pp_faq p.q {
+    font-weight: bold;
+    margin: 15px 0 0 0;
+}
+
+#pp_faq h2 {
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+#pp_faq table {
+    border: 1px solid rgb(200,200,200);
+    margin: 20px 10px;
+}
+
+#pp_faq th {
+    font-weight: bold;
+    border: 1px solid rgb(200,200,200);
+    background-color: rgb(240,240,240);
+}
+
+#pp_faq td,#pp_faq th {
+    padding: 2px 4px;
+    border-left: 1px solid rgb(220,220,220);
+    border-right: 1px solid rgb(220,220,220);
+    border-bottom: 1px dotted rgb(240,240,240);
+    vertical-align: top;
+}
+
+#pp_faq .right {
+    text-align: right;
+}
+
+#pp_about p {
+    margin-bottom: 10px;
+}
+
+#pp_testimonials p.testimonial {
+    font-size: 1.2em;
+    line-height: 1.5em;
+    margin-top: 2em;
+}
+
+#pp_testimonials .text {
+    font-style: italic;
+}
+
+#pp_testimonials .source {
+    font-style: normal;
+    white-space: nowrap;
+}
+
+#pp_testimonials .tweet {
+    background: transparent url(http://twitter-badges.s3.amazonaws.com/t_mini-b.png) top right no-repeat;
+}
+
+#pp_testimonials .tweet .cover {
+    float: left;
+    margin-right: 8px;
+}
+
+#pp_testimonials .tweet .whiteBottom {
+    margin-top: -10px;
+}
+
+#pp_testimonials .cover img {
+    border: 1px solid rgb(142,144,145);
+    box-shadow: 2px 2px 2px rgb(162,164,165);
+    -moz-box-shadow: 2px 2px 2px rgb(162,164,165);
+    -webkit-box-shadow: 2px 2px 2px rgb(162,164,165);
+}
+
+#pp_press .newsitem {
+    margin-top: 10px;
+}
+
+#feedbackForm input#id_email,#feedbackForm textarea {
+    width: 100%;
+}
+
+#feedbackForm .buttonRow {
+    text-align: right;
+    width: 100%;
+}
+
+#feedbackForm .very_important {
+    display: none;
+}
+
+#book_upload #pleaseWait {
+    text-align: center;
+    color: rgb(28,53,131);
+    margin-top: 30px;
+}
+
+#book_upload #progressBarContainer {
+    background: transparent url(https://pediapress.com/resources/images/upload_progress.png) top left no-repeat;
+    height: 15px;
+    margin: 3px 0 0 0;
+}
+
+#book_upload #progressSpacer {
+    position: absolute;
+    left: 8px;
+    width: 690px;
+    height: 15px;
+}
+
+#book_upload #progressBar {
+    width: 0;
+    height: 15px;
+    background: transparent url(https://pediapress.com/resources/images/upload_progress.png) bottom right no-repeat;
+    z-index: 1;
+}
+
+#book_upload #progressValue {
+    position: absolute;
+    right: 0;
+    top: -2px;
+    font-size: 90%;
+    color: rgb(253,97,38);
+    z-index: 100;
+}
+
+#book_upload #statusText {
+    font-size: 90%;
+    color: rgb(253,97,38);
+}
+
+#book_upload #bookpix {
+    margin-top: 40px;
+}
+
+#book_upload #testimonial {
+    display: none;
+    font-size: 1.2em;
+    line-height: 1.6em;
+}
+
+#book_upload #testimonial .text {
+    font-style: italic;
+}
+
+#book_upload #testimonial .source {
+    font-style: normal;
+    white-space: nowrap;
+}
+
+#book_setup h1 {
+    font-size: 180%;
+}
+
+#book_setup #yourBooks {
+    color: rgb(100,100,100);
+}
+
+#book_setup #id_current_book {
+    width: 144px;
+}
+
+#book_setup ul.status {
+    list-style: none;
+}
+
+#book_setup ul.status li.info {
+    background: rgb(255,255,255) url(https://pediapress.com/resources/images/icon_ok_info.png) no-repeat 6px 1px;
+    list-style-type: none;
+    margin: 0;
+    padding-left: 30px;
+}
+
+#book_setup .tabs {
+    height: 26px;
+    padding: 20px 20px 0 30px;
+    width: 470px;
+    margin: 0 0;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+}
+
+#book_setup .tabs li {
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    float: left;
+    width: 140px;
+    margin: 0;
+    margin-left: -1px;
+    background-color: #999;
+    border: solid 1px #ccc;
+    position: relative;
+    z-index: 1;
+    list-style-type: none;
+}
+
+#book_setup .tabs li:first-child {
+    margin-left: 0;
+}
+
+#book_setup .tabs li.current {
+    z-index: 3;
+}
+
+#book_setup .tabs li a:link,#book_setup .tabs li a:visited {
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    display: block;
+    text-align: center;
+    width: 140px;
+    height: 30px;
+    line-height: 26px;
+    font-family: Arial,Helvetica,sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 1px;
+    outline: none;
+    float: left;
+    background: -moz-linear-gradient(top center,#999,#666 20%) repeat scroll 0 0 #999;
+    background: -webkit-gradient(linear,left bottom,left top,color-stop(.2,#666),color-stop(.8,#999));
+    background: #999;
+    -webkit-transition: background-color 0.3s linear;
+    -moz-transition: background-color 0.3s linear;
+    -o-transition: background-color 0.3s linear;
+}
+
+#book_setup .tabs li a:hover {
+    background-color: #ccc;
+}
+
+#book_setup .tabs li.current a:link,#book_setup .tabs li.current a:visited {
+    cursor: default !important;
+    color: #2B477D !important;
+    -webkit-transition: background-color 0.2s linear;
+    background: -moz-linear-gradient(top center,#d1d1d1,#f2f2f2 80%) repeat scroll 0 0 #f2f2f2;
+    background: -webkit-gradient(linear,left bottom,left top,color-stop(.2,#f2f2f2),color-stop(.8,#d1d1d1));
+    background-color: #f2f2f2;
+}
+
+#book_setup ul.tabs:after {
+    display: block;
+    width: 420px;
+    height: 2px;
+    position: absolute;
+    bottom: -2px;
+    left: 32px;
+    border: none;
+    background: none;
+    z-index: 2;
+    -webkit-box-shadow: #111 0 -2px 6px;
+    -moz-box-shadow: #111 0 -2px 6px;
+    box-shadow: #111 0 -2px 6px;
+    border-bottom: 1px solid #ccc;
+    content: ' ';
+}
+
+#book_setup .panes .pane {
+    display: none;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    background: #f2f2f2;
+    width: 480px;
+    margin-top: -1px;
+    padding: 20px 0 20px 30px;
+    position: relative;
+}
+
+#book_setup #newbookForm label {
+    color: rgb(56,56,56);
+    font-size: 100%;
+}
+
+#book_setup #id_title,#book_setup #id_subtitle,#book_setup #id_editor {
+    width: 202px;
+    margin: 2px 0 10px 0;
+}
+
+#book_setup #id_title {
+    font-size: 150%;
+}
+
+#book_setup #coverPreviewArea {
+}
+
+#book_setup .coverPreviewArea {
+    padding: 1px 4px 4px 1px;
+}
+
+#book_setup .coverPreviewArea div {
+    padding: 0;
+    margin: 0;
+    width: 240px;
+}
+
+#book_setup .coverImage {
+    -webkit-box-shadow: 4px 4px 10px rgba(0,0,0,0.5);
+    -moz-box-shadow: 4px 4px 10px rgba(0,0,0,0.5);
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.5);
+}
+
+#book_setup #booktitle {
+    position: absolute;
+    left: 270px;
+    top: 20px;
+}
+
+#book_setup #pane2link {
+    position: absolute;
+    left: 270px;
+    top: 336px;
+    width: 202px;
+    text-align: right;
+}
+
+#book_setup #cartbox {
+    position: absolute;
+    left: 560px;
+    top: 47px;
+    width: 185px;
+}
+
+#book_setup #color-theme {
+    position: absolute;
+    left: 270px;
+    top: 20px;
+    width: 202px;
+}
+
+#book_setup #theme_chooser,#book_setup #image_chooser {
+    overflow: auto;
+}
+
+#book_setup #color-theme .label,#book_setup #image-choose-text {
+    color: rgb(56,56,56);
+    font-size: 100%;
+}
+
+#book_setup .theme {
+    margin-right: 1px;
+    border: 2px solid #f2f2f2;
+}
+
+#book_setup .theme {
+    float: left;
+    margin: 0 10px 10px 0;
+}
+
+#book_setup #cover_image {
+    margin-top: 20px;
+}
+
+#book_setup #image-choose-text {
+    margin: 0 0 0.5em 0;
+}
+
+#book_setup #image_chooser {
+    margin-left: -2px;
+}
+
+#book_setup #image_chooser .image_preview {
+    border: 2px solid #f2f2f2;
+    margin: 0 2px 2px 0;
+    float: left;
+}
+
+#book_setup #image_chooser .image,#book_setup #image_chooser .image_blank {
+    height: 84px;
+    width: 84px;
+    padding: 0;
+    border: 1px solid #ddd;
+    position: relative;
+}
+
+#book_setup .image a {
+    height: 84px;
+    width: 84px;
+    display: block;
+    text-decoration: none;
+    color: rgb(56,56,56);
+}
+
+#book_setup .image IMG {
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
+}
+
+#book_setup #theme_chooser .theme.selected,#book_setup #image_chooser .image_preview.selected {
+    border: 2px solid rgb(253,97,38);
+}
+
+#book_setup .theme_preview {
+    width: 29px;
+    height: 44px;
+    border: 1px solid #ddd;
+    background: rgb(255,255,255) url(https://pediapress.com/resources/images/cover_color_preview.png) no-repeat;
+}
+
+#book_setup .theme_nico_0 .theme_preview {
+    background-position: 0px 0px;
+}
+
+#book_setup .theme_nico_2 .theme_preview {
+    background-position: -29px 0px;
+}
+
+#book_setup .theme_nico_3 .theme_preview {
+    background-position: -58px 0px;
+}
+
+#book_setup .theme_nico_4 .theme_preview {
+    background-position: -87px 0px;
+}
+
+#book_setup .theme_nico_5 .theme_preview {
+    background-position: 0px -44px;
+}
+
+#book_setup .theme_nico_6 .theme_preview {
+    background-position: -29px -44px;
+}
+
+#book_setup .theme_nico_7 .theme_preview {
+    background-position: -58px -44px;
+}
+
+#book_setup .theme_nico_8 .theme_preview {
+    background-position: -87px -44px;
+}
+
+#book_setup .theme_nico_9 .theme_preview {
+    background-position: 0px -88px;
+}
+
+#book_setup .theme_nico_10 .theme_preview {
+    background-position: -29px -88px;
+}
+
+#book_setup .theme_nico_11 .theme_preview {
+    background-position: -58px -88px;
+}
+
+#book_setup .theme_nico_12 .theme_preview {
+    background-position: -87px -88px;
+}
+
+#book_setup .theme_nico_13 .theme_preview {
+    background-position: 0px -132px;
+}
+
+#book_setup .theme_nico_15 .theme_preview {
+    background-position: -29px -132px;
+}
+
+#book_setup .theme_nico_16 .theme_preview {
+    background-position: -58px -132px;
+}
+
+#book_setup .theme_nico_17 .theme_preview {
+    background-position: -87px -132px;
+}
+
+#book_setup .theme_nico_18 .theme_preview {
+    background-position: 0px -176px;
+}
+
+#book_setup .theme_nico_19 .theme_preview {
+    background-position: -29px -176px;
+}
+
+#book_setup .theme_nico_20 .theme_preview {
+    background-position: -58px -176px;
+}
+
+#book_setup .theme_nico_21 .theme_preview {
+    background-position: -87px -176px;
+}
+
+#book_setup #survey-trigger .whiteTop {
+    padding-top: 10px;
+    margin-bottom: -5px;
+}
+
+#book_setup #preface_form label {
+    color: rgb(56,56,56);
+    font-size: 100%;
+}
+
+#book_setup #id_preface_title {
+    width: 450px;
+    font-size: 150%;
+    margin-bottom: 10px;
+}
+
+#book_setup #id_preface_content {
+    width: 450px;
+}
+
+.overlay {
+    display: none;
+    z-index: 10000;
+    background-color: #fff;
+    -moz-box-shadow: 0 0 90px 5px #777;
+    -webkit-box-shadow: 0 0 90px #777;
+    box-shadow: 0 0 90px #777;
+}
+
+.overlay .wrap {
+    z-index: 10001;
+}
+
+.overlay .inner {
+    z-index: 10002;
+}
+
+.overlay .close {
+    background-image: url(https://pediapress.com/resources/images/preview/close.png);
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    cursor: pointer;
+    height: 28px;
+    width: 28px;
+    z-index: 10100;
+}
+
+#preview-container {
+    width: 396px;
+    height: 612px;
+}
+
+#preview-container .left-page,#preview-container .right-page {
+    position: absolute;
+    top: 0;
+    width: 396px;
+    height: 612px;
+    z-index: 10003;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+}
+
+#preview-container .left-page {
+    display: none;
+    left: 0px;
+}
+
+#preview-container .right-page {
+    right: 0px;
+}
+
+#preview-container .prev-button {
+    position: absolute;
+    display: none;
+    top: 291px;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    background: transparent url(https://pediapress.com/resources/images/preview/prev.png) left top no-repeat;
+    z-index: 10100;
+}
+
+#preview-container .next-button {
+    position: absolute;
+    display: none;
+    top: 291px;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    background: transparent url(https://pediapress.com/resources/images/preview/next.png) right center no-repeat;
+    z-index: 10100;
+}
+
+#preview-container .spine {
+    position: absolute;
+    display: none;
+    left: 381px;
+    top: 0;
+    width: 30px;
+    height: 612px;
+    background: transparent url(https://pediapress.com/resources/images/preview/spine.png) repeat-y;
+    z-index: 10100;
+}
+
+#preview-container .loading {
+    position: absolute;
+    z-index: 10100;
+    left: 166px;
+    top: 274px;
+    width: 64px;
+    height: 64px;
+    background: #000 url(https://pediapress.com/resources/images/preview/spinner.gif) center no-repeat;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius;10px;
+}
+
+#preview-container .error {
+    position: absolute;
+    display: none;
+    z-index: 10100;
+    left: 20px;
+    width: 346px;
+    height: 2em;
+    top: 260px;
+    color: #fff;
+    background-color: #000;
+    padding: 5px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+#mainContent.book_show .boundingBox {
+    margin-top: 20px;
+}
+
+#mainContent.book_show #metadata #title {
+    font-size: 140%;
+    font-weight: bold;
+}
+
+#mainContent.book_show .rdp-ppe-inline-content-sep{padding: 5px 0 5px 106px;font-weight: bold;}
+
+div.rdp_pp_book_gallery .rdp-pp-gallery-metadata-container{width: 56%;float: left;padding-left: 6px;}
+div.rdp_pp_book_gallery .rdp-pp-gallery-inline-content-sep{padding: 0;margin: 3px 0;text-align: center;font-weight: bold;}
+
+#mainContent.book_show #metadata p{
+    font-size: 12px;
+    padding: 0;
+    margin: 0 0 3px;
+    line-height: normal;
+}
+
+div.rdp_pp_book_gallery div.weppgallery-box p.cover-image-container,
+div.rdp_pp_book_gallery div.weppgallery-box p.rdp-pp-gallery-add-to-cart-container,
+div.rdp_pp_book_gallery div.weppgallery-box p.rdp-pp-gallery-cta-button-container
+{
+    text-align: center;
+}
+
+#mainContent.book_show #metadata p:first-of-type {
+    margin-top: 0;
+}
+
+#mainContent.book_show #metadata p:last-of-type {
+    margin-bottom: 8px;
+}
+
+#mainContent.book_show #metadata p label{display: block;font-weight: bold;color: #000;}
+
+
+#mainContent.book_show #metadata .tag {
+    font-size: 90%;
+}
+
+#mainContent.book_show #coverPreviewArea {
+    background: rgb(255,255,255) url(https://pediapress.com/resources/images/cover_shadow_empty.png) no-repeat;
+}
+
+#mainContent.book_show #coverPreviewArea {
+    padding: 1px 4px 4px 1px;
+    width: 201px;
+    height: auto;
+}
+
+#mainContent.book_show #coverPreviewArea div {
+    padding: 0;
+    margin: 0;
+    width: 201px;
+    height: 311px;
+    text-align: center;
+}
+
+#mainContent.book_show div#contentBeneathCover,
+#mainContent.book_show div#contentBeneathCover p{
+    height: auto;
+    font-size: .8em;
+    line-height: normal;
+    margin-top: 6px;
+    display: inline-table;
+}
+
+#mainContent.book_show #coverPreviewArea div a:hover{cursor: pointer;}
+
+#mainContent.book_show li.chapter {
+    font-weight: bold;
+    list-style-type: none;
+}
+
+#mainContent.book_show li.article {
+    list-style-type: none;
+    margin-left: 2em;
+}
+
+#mainContent.book_show li.custom {
+    list-style-type: none;
+    margin-left: 2em;
+}
+
+#book_your_books li {
+    list-style-type: none;
+    margin: 0;
+    padding-bottom: 16px;
+    float: left;
+    width: 333px;
+}
+
+#book_your_books div.cover {
+    float: left;
+    margin-right: 8px;
+}
+
+#book_your_books div.data {
+    margin-left: 68px;
+}
+
+#book_your_books div.title {
+    font-size: 120%;
+}
+
+#book_your_books div.cover img {
+    border: 1px solid rgb(142,144,145);
+    box-shadow: 2px 2px 2px rgb(162,164,165);
+    -moz-box-shadow: 2px 2px 2px rgb(162,164,165);
+    -webkit-box-shadow: 2px 2px 2px rgb(162,164,165);
+}
+
+#category-tree li {
+    list-style-type: none;
+}
+
+#category-tree li.current {
+    font-weight: bold;
+}
+
+#bookList li.book {
+    list-style-type: none;
+    margin-left: 0;
+    padding-bottom: 16px;
+}
+
+#bookList li.book .cover img {
+    float: left;
+    margin-right: 8px;
+    border-left: 1px solid rgb(200,200,200);
+    border-top: 1px solid rgb(200,200,200);
+    border-right: 1px solid rgb(102,104,105);
+    border-bottom: 1px solid rgb(102,104,105);
+}
+
+#bookList li.book .title {
+    font-size: 120%;
+}
+
+li.book-digest {
+    list-style-type: none;
+    margin-left: 0;
+    padding-bottom: 16px;
+}
+
+.book-digest .cover img {
+    float: left;
+    margin-right: 8px;
+    border: 1px solid rgb(142,144,145);
+    box-shadow: 2px 2px 2px rgb(162,164,165);
+    -moz-box-shadow: 2px 2px 2px rgb(162,164,165);
+    -webkit-box-shadow: 2px 2px 2px rgb(162,164,165);
+}
+
+.book-digest .title {
+    font-size: 120%;
+}
+
+#rdp_ppe_inline_content{padding:10px; background:#fff;}
+#rdp_pp_gallery_footer form{display: inline-block;}
+#rdp_pp_gallery_footer a.rdp-pp-gallery-rss{display: inline-block;float: right;}
+#rdp_ppe_inline_content .ui-tabs .ppe-tab iframe,
+#rdp_pp_gallery_inline_content .ui-tabs .ppe-tab iframe{width: 100%;height:100%;}
+div.weppgallery-row-sep{height: 2px;background: none;}
+div.weppgallery-box{vertical-align: top;border: solid 1px #EEEEEE;padding: 4px;display: inline-block;margin: 0 0 8px 4px;}
+div.weppgallery-col-0{margin-left: 0}
+#rdp-weppg-paging-controls button, 
+#rdp-weppg-paging-controls input[type=button], 
+#rdp-weppg-paging-controls input[type=reset], 
+#rdp-weppg-paging-controls input[type=submit]{
+    padding: 6px 8px;
+    height: auto;
+    font-size: 13px;
+}
+
+#rdp-weppg-paging-controls input[disabled]{cursor: not-allowed;}
+
+
+div.rdp_pp_book_gallery div.weppgallery-box p{
+    padding: 0;
+    margin: 0 0 3px;
+    line-height: normal;
+}
+
+/*  Small Gallery 
+------------------------------------*/
+div.rdp_pp_book_gallery.small a.ppe-cover-link img{
+    width: 100%;
+    max-width: 118px;
+    height: auto;
+}
+div.rdp_pp_book_gallery.small div.weppgallery-box p.editor-container,
+div.rdp_pp_book_gallery.small div.weppgallery-box p.editor-container span.editor,
+div.rdp_pp_book_gallery.small div.weppgallery-box p.subtitle-container,
+div.rdp_pp_book_gallery.small div.weppgallery-box p.subtitle-container span.subtitle,
+div.rdp_pp_book_gallery.small div.weppgallery-box p.language-container,
+div.rdp_pp_book_gallery.small div.weppgallery-box p.language-container span.language,
+div.rdp_pp_book_gallery.small div.weppgallery-box p.excerpt-container,
+div.rdp_pp_book_gallery.small div.weppgallery-box p.excerpt-container span.excerpt,
+div.rdp_pp_book_gallery.small div.weppgallery-box p.price-currency-container,
+div.rdp_pp_book_gallery.small div.weppgallery-box p.price-amount-container,
+div.rdp_pp_book_gallery.small div.weppgallery-box p.book-size-container,
+div.rdp_pp_book_gallery.small div.weppgallery-box p.book-size-container span.book-size{font-size: 11px;}
+div.rdp_pp_book_gallery.small div.weppgallery-box p.title-container{font-size: 13px;font-weight: bold;}
+
+/*  Medium Gallery 
+------------------------------------*/
+div.rdp_pp_book_gallery.medium a.ppe-cover-link img{
+    width: 100%;
+    max-width: 174px;
+    height: auto;
+}
+div.rdp_pp_book_gallery.medium div.weppgallery-box p.editor-container,
+div.rdp_pp_book_gallery.medium div.weppgallery-box p.editor-container span.editor,
+div.rdp_pp_book_gallery.medium div.weppgallery-box p.subtitle-container,
+div.rdp_pp_book_gallery.medium div.weppgallery-box p.subtitle-container span.subtitle,
+div.rdp_pp_book_gallery.medium div.weppgallery-box p.language-container,
+div.rdp_pp_book_gallery.medium div.weppgallery-box p.language-container span.language,
+div.rdp_pp_book_gallery.medium div.weppgallery-box p.excerpt-container,
+div.rdp_pp_book_gallery.medium div.weppgallery-box p.excerpt-container span.excerpt,
+div.rdp_pp_book_gallery.medium div.weppgallery-box p.price-currency-container,
+div.rdp_pp_book_gallery.medium div.weppgallery-box p.price-amount-container,
+div.rdp_pp_book_gallery.medium div.weppgallery-box p.book-size-container,
+div.rdp_pp_book_gallery.medium div.weppgallery-box p.book-size-container span.book-size{font-size: 12px;}
+div.rdp_pp_book_gallery.medium div.weppgallery-box p.title-container{font-size: 14px;font-weight: bold;}
+
+/*  Large Gallery 
+------------------------------------*/
+div.rdp_pp_book_gallery.large a.ppe-cover-link img{
+    width: 100%;
+    max-width: 201px;
+    height: auto;
+}
+div.rdp_pp_book_gallery.large div.weppgallery-box p.editor-container,
+div.rdp_pp_book_gallery.large div.weppgallery-box p.editor-container span.editor,
+div.rdp_pp_book_gallery.large div.weppgallery-box p.subtitle-container,
+div.rdp_pp_book_gallery.large div.weppgallery-box p.subtitle-container span.subtitle,
+div.rdp_pp_book_gallery.large div.weppgallery-box p.language-container,
+div.rdp_pp_book_gallery.large div.weppgallery-box p.language-container span.language,
+div.rdp_pp_book_gallery.large div.weppgallery-box p.excerpt-container,
+div.rdp_pp_book_gallery.large div.weppgallery-box p.excerpt-container span.excerpt,
+div.rdp_pp_book_gallery.large div.weppgallery-box p.price-currency-container,
+div.rdp_pp_book_gallery.large div.weppgallery-box p.price-amount-container,
+div.rdp_pp_book_gallery.large div.weppgallery-box p.book-size-container,
+div.rdp_pp_book_gallery.large div.weppgallery-box p.book-size-container span.book-size{font-size: 12px;}
+div.rdp_pp_book_gallery.large div.weppgallery-box p.title-container{font-size: 17px;font-weight: bold;}
+
+
+@media only screen and (max-width: 500px) {
+    div.weppgallery-box {
+        display: block;
+        width:100%;
+        margin: 0 0 6px;
+    }
+}
